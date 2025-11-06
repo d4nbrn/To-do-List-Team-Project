@@ -14,18 +14,18 @@
 After exploring existing to-do list applications (Microsoft To-Do, Trello, GitHub Projects, etc.), we observed the following common features:
 
 **What can these applications do?**
--
--
--
+- Add/remove from list
+- Prioritise items
+- 
 
 **What data do they store?**
--
--
--
+- Strings
+- Integer
+- Floats
 
 **How do they display data?**
--
--
+- Ordered list
+- Unordered list
 -
 
 ---
@@ -33,8 +33,8 @@ After exploring existing to-do list applications (Microsoft To-Do, Trello, GitHu
 ### 1.2 Essential Features
 List the features your to-do list MUST have to be functional:
 
-1.
-2.
+1. Add/remove items
+2. Display items
 3.
 4.
 5.
@@ -47,8 +47,8 @@ List the features your to-do list MUST have to be functional:
 ### 1.3 Desirable Features
 List nice-to-have features that would enhance the application but aren't strictly necessary:
 
-1.
-2.
+1. Check boxes
+2. Order items in terms of priority
 3.
 4.
 
@@ -71,10 +71,10 @@ What information does each individual task need to store?
 How will you store the collection of tasks?
 
 **Chosen Structure** (e.g., list of dictionaries, list of lists, list of tuples):
-
+List
 
 **Why did you choose this structure?**
-
+You can change the data stored unlike tuples
 
 **Example of your data structure with 2-3 sample tasks**:
 ```python
