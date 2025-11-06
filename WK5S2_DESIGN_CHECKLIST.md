@@ -1,10 +1,10 @@
 # To-Do List Application - Design Document
 
-**Team Name**: _________________
+**Team Name**: No idea
 
-**Team Members**: _________________
+**Team Members**: Dan, Izzy
 
-**Date**: _________________
+**Date**: 3/11/25
 
 ---
 
@@ -71,7 +71,7 @@ What information does each individual task need to store?
 How will you store the collection of tasks?
 
 **Chosen Structure** (e.g., list of dictionaries, list of lists, list of tuples):
-List
+List of lists, this means one part of the list can store the string for the task that needs to be completed and the other can store the priority of the task
 
 **Why did you choose this structure?**
 You can change the data stored unlike tuples
@@ -79,14 +79,16 @@ You can change the data stored unlike tuples
 **Example of your data structure with 2-3 sample tasks**:
 ```python
 # Write your example here
-
+[["Task 1: Do the dishes"],[2]]
+[["Task 2: Feed the cat"],[3]]
+[["Task 3: Sweep the floor"][1]]
 
 
 
 ```
 
 **How will you access specific fields?** (e.g., for list of dicts: `task["description"]`)
-
+Indexing will allow changes to indvidual elements such as the priority and string 
 
 ---
 
