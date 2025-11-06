@@ -2,7 +2,7 @@ from viewContents import viewContents
 import time
 def addDeleteFromList(list_):
     displaylist = viewContents(list_)
-    print(f{Currently the list looks like this: {displaylist}})
+    print(f"Currently the list looks like this: {displaylist}")
     time.sleep(2)
     addOrDelete = int(input("Would you like to 1. Add or 2. Delete - Please input either 1 or 2")).strip()
     if addOrDelete == 1:
